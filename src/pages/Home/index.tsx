@@ -11,13 +11,15 @@ const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+const Products = lazy(() => import("../../components/Products"));
 
 const Home = () => {
   return (
     <Container>
       <ScrollToTop />
+      <Products />
       <ContentBlock
-        direction="right"
+        direction="up"
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
@@ -30,7 +32,7 @@ const Home = () => {
         button={MiddleBlockContent.button}
       />
       <ContentBlock
-        direction="left"
+        direction="up"
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
@@ -38,14 +40,14 @@ const Home = () => {
         id="about"
       />
       <ContentBlock
-        direction="right"
+        direction="up"
         title={MissionContent.title}
         content={MissionContent.text}
         icon="product-launch.svg"
         id="mission"
       />
       <ContentBlock
-        direction="left"
+        direction="up"
         title={ProductContent.title}
         content={ProductContent.text}
         icon="waving.svg"

@@ -118,13 +118,8 @@ const Footer = ({ t }: { t: TFunction }) => {
             style={{ paddingTop: "3rem" }}
           >
             <NavLink to="/">
-              <LogoContainer>
-                <SvgIcon
-                  src="logo.svg"
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
+              <LogoContainer aria-label="homepage">
+                <SvgIcon src="aliph-logo.png" width="90px" height="auto" />
               </LogoContainer>
             </NavLink>
             <FooterContainer>
