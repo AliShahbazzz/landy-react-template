@@ -9,13 +9,22 @@ const Slider: React.FC<{ direction: "up" }> = ({ direction }) => {
     <ContentSection>
       <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
         <div>
-          <img src="/img/slider/banner1.png" alt="" />
+          <img
+            src={`${process.env.PUBLIC_URL}/img/slider/banner1.png`}
+            alt=""
+          />
         </div>
         <div>
-          <img src="/img/slider/banner2.png" alt="" />
+          <img
+            src={`${process.env.PUBLIC_URL}/img/slider/banner2.png`}
+            alt=""
+          />
         </div>
         <div>
-          <img src="/img/slider/banner3.png" alt="" />
+          <img
+            src={`${process.env.PUBLIC_URL}/img/slider/banner3.png`}
+            alt=""
+          />
         </div>
       </Carousel>
     </ContentSection>
