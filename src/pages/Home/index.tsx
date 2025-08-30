@@ -1,4 +1,4 @@
-import { lazy } from "react";
+import { lazy, Suspense } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
@@ -15,18 +15,19 @@ const Products = lazy(() => import("../../components/Products"));
 
 const Home = () => {
   return (
-    <Container>
-      <ScrollToTop />
-      <Products />
-      <ContentBlock
-        direction="left"
-        title={IntroContent.title}
-        content={IntroContent.text}
-        button={IntroContent.button}
-        icon="developer.svg"
-        id="intro"
-      />
-      {/* <MiddleBlock
+    <Suspense fallback={<div>Loading...</div>}>
+      <Container>
+        <ScrollToTop />
+        <Products />
+        <ContentBlock
+          direction="left"
+          title={IntroContent.title}
+          content={IntroContent.text}
+          button={IntroContent.button}
+          icon="developer.svg"
+          id="intro"
+        />
+        {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
@@ -58,7 +59,8 @@ const Home = () => {
         content={ContactContent.text}
         id="contact"
       /> */}
-    </Container>
+      </Container>
+    </Suspense>
   );
 };
 
