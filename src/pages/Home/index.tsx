@@ -15,19 +15,18 @@ import Products from "../../components/Products";
 
 const Home = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <Container>
-        <ScrollToTop />
-        <Products />
-        <ContentBlock
-          direction="left"
-          title={IntroContent.title}
-          content={IntroContent.text}
-          button={IntroContent.button}
-          icon="developer.svg"
-          id="intro"
-        />
-        {/* <MiddleBlock
+    <Container>
+      <ScrollToTop />
+      <Products />
+      <ContentBlock
+        direction="left"
+        title={IntroContent.title}
+        content={IntroContent.text}
+        button={IntroContent.button}
+        icon="developer.svg"
+        id="intro"
+      />
+      {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
@@ -59,8 +58,7 @@ const Home = () => {
         content={ContactContent.text}
         id="contact"
       /> */}
-      </Container>
-    </Suspense>
+    </Container>
   );
 };
 
