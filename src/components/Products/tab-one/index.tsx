@@ -46,7 +46,14 @@ export const TabOne: React.FC = () => {
   }) => (
     <Card
       style={{ width: 450 }}
-      cover={<img width={450} height={380} alt={alt} src={img} />}
+      cover={
+        <img
+          width={450}
+          height={380}
+          alt={alt}
+          src={`${process.env.PUBLIC_URL}${img}`}
+        />
+      }
     >
       <Meta title={title} description={description} />
     </Card>
