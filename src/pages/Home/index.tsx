@@ -17,35 +17,35 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
-      <Products />
+      <Products id="product" />
       <ContentBlock
         direction="left"
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
         icon="developer.svg"
-        id="intro"
-      />
-      {/* <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-      />
-      <ContentBlock
-        direction="up"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        icon="graphs.svg"
         id="about"
       />
       <ContentBlock
         direction="up"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
-        id="mission"
+        icon="whyus.png"
+        id="whyus"
       />
+      {/* <MiddleBlock
+        title={MiddleBlockContent.title}
+        content={MiddleBlockContent.text}
+        button={MiddleBlockContent.button}
+        />
+        <ContentBlock
+          direction="up"
+          title={AboutContent.title}
+          content={AboutContent.text}
+          section={AboutContent.section}
+          icon="graphs.svg"
+          id="whyus"
+        />
       <ContentBlock
         direction="up"
         title={ProductContent.title}

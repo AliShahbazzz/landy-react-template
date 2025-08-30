@@ -4,7 +4,7 @@ import { ContentSection, TabContent } from "./styles";
 import { TabOne } from "./tab-one";
 import { Fade } from "react-awesome-reveal";
 
-const Products: React.FC = () => {
+const Products: React.FC<{ id: string }> = ({ id }) => {
   const items: TabsProps["items"] = [
     {
       key: "1",
@@ -23,7 +23,7 @@ const Products: React.FC = () => {
   };
 
   return (
-    <ContentSection>
+    <ContentSection id={id}>
       <Fade direction={"up"} triggerOnce>
         <h2>Our Products</h2>
         <TabContent>
