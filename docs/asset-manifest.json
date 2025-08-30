@@ -1,39 +1,23 @@
 {
   "files": {
     "main.css": "/landy-react-template/static/css/main.37ddbf14.css",
-    "main.js": "/landy-react-template/static/js/main.5688eeaf.js",
+    "main.js": "/landy-react-template/static/js/main.1455c54f.js",
     "static/css/105.eee91290.chunk.css": "/landy-react-template/static/css/105.eee91290.chunk.css",
     "static/js/105.cacb978d.chunk.js": "/landy-react-template/static/js/105.cacb978d.chunk.js",
-    "static/js/292.fa2d2103.chunk.js": "/landy-react-template/static/js/292.fa2d2103.chunk.js",
-    "static/js/676.9bcde40c.chunk.js": "/landy-react-template/static/js/676.9bcde40c.chunk.js",
-    "static/js/416.e7b55593.chunk.js": "/landy-react-template/static/js/416.e7b55593.chunk.js",
-    "static/js/538.7502cfce.chunk.js": "/landy-react-template/static/js/538.7502cfce.chunk.js",
-    "static/js/566.f5da6c07.chunk.js": "/landy-react-template/static/js/566.f5da6c07.chunk.js",
-    "static/js/820.3eed8212.chunk.js": "/landy-react-template/static/js/820.3eed8212.chunk.js",
-    "static/js/614.084c75c7.chunk.js": "/landy-react-template/static/js/614.084c75c7.chunk.js",
-    "static/js/611.54c16fc8.chunk.js": "/landy-react-template/static/js/611.54c16fc8.chunk.js",
-    "static/js/626.3ea7cd4d.chunk.js": "/landy-react-template/static/js/626.3ea7cd4d.chunk.js",
-    "static/js/299.9420e162.chunk.js": "/landy-react-template/static/js/299.9420e162.chunk.js",
+    "static/js/65.c9e3917e.chunk.js": "/landy-react-template/static/js/65.c9e3917e.chunk.js",
+    "static/js/229.b99fbb8a.chunk.js": "/landy-react-template/static/js/229.b99fbb8a.chunk.js",
     "static/js/142.7ab5a353.chunk.js": "/landy-react-template/static/js/142.7ab5a353.chunk.js",
     "index.html": "/landy-react-template/index.html",
     "main.37ddbf14.css.map": "/landy-react-template/static/css/main.37ddbf14.css.map",
-    "main.5688eeaf.js.map": "/landy-react-template/static/js/main.5688eeaf.js.map",
+    "main.1455c54f.js.map": "/landy-react-template/static/js/main.1455c54f.js.map",
     "105.eee91290.chunk.css.map": "/landy-react-template/static/css/105.eee91290.chunk.css.map",
     "105.cacb978d.chunk.js.map": "/landy-react-template/static/js/105.cacb978d.chunk.js.map",
-    "292.fa2d2103.chunk.js.map": "/landy-react-template/static/js/292.fa2d2103.chunk.js.map",
-    "676.9bcde40c.chunk.js.map": "/landy-react-template/static/js/676.9bcde40c.chunk.js.map",
-    "416.e7b55593.chunk.js.map": "/landy-react-template/static/js/416.e7b55593.chunk.js.map",
-    "538.7502cfce.chunk.js.map": "/landy-react-template/static/js/538.7502cfce.chunk.js.map",
-    "566.f5da6c07.chunk.js.map": "/landy-react-template/static/js/566.f5da6c07.chunk.js.map",
-    "820.3eed8212.chunk.js.map": "/landy-react-template/static/js/820.3eed8212.chunk.js.map",
-    "614.084c75c7.chunk.js.map": "/landy-react-template/static/js/614.084c75c7.chunk.js.map",
-    "611.54c16fc8.chunk.js.map": "/landy-react-template/static/js/611.54c16fc8.chunk.js.map",
-    "626.3ea7cd4d.chunk.js.map": "/landy-react-template/static/js/626.3ea7cd4d.chunk.js.map",
-    "299.9420e162.chunk.js.map": "/landy-react-template/static/js/299.9420e162.chunk.js.map",
+    "65.c9e3917e.chunk.js.map": "/landy-react-template/static/js/65.c9e3917e.chunk.js.map",
+    "229.b99fbb8a.chunk.js.map": "/landy-react-template/static/js/229.b99fbb8a.chunk.js.map",
     "142.7ab5a353.chunk.js.map": "/landy-react-template/static/js/142.7ab5a353.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37ddbf14.css",
-    "static/js/main.5688eeaf.js"
+    "static/js/main.1455c54f.js"
   ]
 }
