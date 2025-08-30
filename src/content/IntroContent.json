@@ -1,13 +1,5 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
-  "button": [
-    {
-      "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
-    }
-  ]
+  "title": "About Us",
+  "text": "Aliph Manufacturing, founded in 2006, is a high-tech enterprise specializing in the research, development, production, and sales of polymer materials. With two major production bases in Yangzhou and Suzhou covering over 25,000 square meters, we provide a comprehensive range of safety protection solutions, including insulation, sealing, waterproofing, thermal conductivity, fireproofing, and electrical conductivity, widely applied across industries such as electricity, telecommunications, automotive, and electronics etc.",
+  "button": []
 }

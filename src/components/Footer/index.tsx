@@ -50,35 +50,32 @@ const Footer = ({ t }: { t: TFunction }) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
+            <Col lg={5} md={5} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
-              <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
-              </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="tel:+917093496194">+91 70934 96194</a>
+              <Para>{t(`management.aliph@gmail.com`)}</Para>
+              <a href="mailto:management.aliph@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
+            <Col lg={5} md={5} sm={12} xs={12}>
+              <Language>{t("Address")}</Language>
+              <Para>Hyderabad, TG 500059</Para>
+              <Para>India</Para>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+            <Col lg={5} md={5} sm={12} xs={12}>
+              <Title>{t("Company")}</Title>
+              <Large to="/">{t("Products")}</Large>
+              <Large to="/">{t("About")}</Large>
+              <Large to="/">{t("Why Choose Us")}</Large>
+            </Col>
+            {/* <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
               <Large to="/">{t("Support Center")}</Large>
               <Large to="/">{t("Customer Support")}</Large>
-            </Col>
+            </Col> */}
           </Row>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
-              <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
-            </Col>
+          {/* <Row justify="space-between">
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
               <Large to="/">{t("About")}</Large>
@@ -107,7 +104,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 </LanguageSwitch>
               </LanguageSwitchContainer>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </FooterSection>
       <Extra>
@@ -123,7 +120,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-              <SocialLink
+              {/* <SocialLink
                 href="https://github.com/Adrinlol/create-react-app-adrinlol"
                 src="github.svg"
               />
@@ -150,7 +147,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
                   alt="Buy Me a Coffee at ko-fi.com"
                 />
-              </a>
+              </a> */}
             </FooterContainer>
           </Row>
         </Container>
