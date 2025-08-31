@@ -45,14 +45,20 @@ export const TabOne: React.FC = () => {
     alt,
   }) => (
     <Card
-      style={{ width: 450 }}
+      style={{ width: "100%", maxWidth: 450, margin: "0 auto" }}
       cover={
-        <img
-          width={450}
-          height={380}
-          alt={alt}
-          src={`${process.env.PUBLIC_URL}${img}`}
-        />
+        <div style={{ width: "100%", height: 250, overflow: "hidden" }}>
+          <img
+            src={`${process.env.PUBLIC_URL}${img}`}
+            alt={alt}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "contain",
+              backgroundColor: "#f5f5f5", // filler behind transparent/short images
+            }}
+          />
+        </div>
       }
     >
       <Meta title={title} description={description} />
@@ -61,16 +67,15 @@ export const TabOne: React.FC = () => {
 
   return (
     <TabContainer>
-      <Row gutter={16} justify="center">
-        {products?.slice(0, 2).map((product, index) => (
-          <Col span={12} key={index}>
-            <ProductCard {...product} />
-          </Col>
-        ))}
-      </Row>
-      <Row gutter={16} justify="center">
-        {products?.slice(2, 4).map((product, index) => (
-          <Col span={12} key={index}>
+      <Row gutter={[16, 16]} justify="center">
+        {products.map((product, index) => (
+          <Col
+            key={index}
+            xs={24} // full width on mobile
+            sm={24} // full width on small tablets
+            md={12} // 2 per row on medium screens
+            lg={12} // 2 per row on large screens
+          >
             <ProductCard {...product} />
           </Col>
         ))}
