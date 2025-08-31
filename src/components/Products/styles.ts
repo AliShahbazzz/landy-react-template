@@ -21,4 +21,8 @@ export const TabContainer = styled("div")`
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  .ant-card-meta-title {
+    font-weight: bold;
+  }
 `;

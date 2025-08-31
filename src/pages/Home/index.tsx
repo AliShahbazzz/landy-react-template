@@ -18,12 +18,12 @@ const Home = () => {
     <Container>
       <ScrollToTop />
       <Products id="product" />
-      <ContentBlock
-        direction="left"
+      <MiddleBlock
+        // direction="left"
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        // icon="developer.svg"
         id="about"
       />
       <ContentBlock
