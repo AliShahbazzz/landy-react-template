@@ -11,11 +11,11 @@ const Products: React.FC<{ id: string }> = ({ id }) => {
       label: "Cold Shrink Tubes",
       children: <TabOne />,
     },
-    {
-      key: "2",
-      label: "Heat Shrink Tubes",
-      children: "Content of Tab Pane 2",
-    },
+    // {
+    //   key: "2",
+    //   label: "Heat Shrink Tubes",
+    //   children: "Content of Tab Pane 2",
+    // },
   ];
 
   const onChange = (key: string) => {
