@@ -13,12 +13,8 @@ import {
   Para,
   Large,
   Chat,
-  Empty,
   FooterContainer,
   Language,
-  Label,
-  LanguageSwitch,
-  LanguageSwitchContainer,
 } from "./styles";
 
 interface SocialLinkProps {
@@ -50,20 +46,24 @@ const Footer = ({ t }: { t: TFunction }) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={5} md={5} sm={12} xs={12}>
+            <Col lg={7} md={5} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <a href="tel:+917093496194">+91 70934 96194</a>
+              <a href="tel:+918555015382">+91 85550 15382</a>
               <Para>{t(`management.aliph@gmail.com`)}</Para>
               <a href="mailto:management.aliph@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
-            <Col lg={5} md={5} sm={12} xs={12}>
+            <Col lg={7} md={5} sm={12} xs={12}>
               <Language>{t("Address")}</Language>
-              <Para>Hyderabad, TG 500059</Para>
+              <Para>Aliph Manufacturing (OPC) Private limited</Para>
+              <Para>GST: 36AAZCA4026A1ZS</Para>
+              <Para>17-3-101/12</Para>
+              <Para>Rain Bazaar, Yakutpura</Para>
+              <Para>Hyderabad, TG 500023</Para>
               <Para>India</Para>
             </Col>
-            <Col lg={5} md={5} sm={12} xs={12}>
+            <Col lg={7} md={5} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
               <Large to="/">{t("Products")}</Large>
               <Large to="/">{t("About")}</Large>

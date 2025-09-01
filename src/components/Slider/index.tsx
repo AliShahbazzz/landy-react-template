@@ -5,16 +5,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 
 const Slider: React.FC<{ direction: "up" }> = ({ direction }) => {
-  return (
-    <ContentSection>
-      <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
-        <div>
-          <img
-            src={`${process.env.PUBLIC_URL}/img/slider/banner1.png`}
-            alt=""
-          />
-        </div>
-        <div>
+  {
+    /* <div>
           <img
             src={`${process.env.PUBLIC_URL}/img/slider/banner2.png`}
             alt=""
@@ -25,7 +17,14 @@ const Slider: React.FC<{ direction: "up" }> = ({ direction }) => {
             src={`${process.env.PUBLIC_URL}/img/slider/banner3.png`}
             alt=""
           />
-        </div>
+        </div> */
+  }
+
+  return (
+    <ContentSection>
+      <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
+        {/*//@ts-ignore} */}
+        <img src={`${process.env.PUBLIC_URL}/img/slider/banner1.png`} alt="" />
       </Carousel>
     </ContentSection>
   );

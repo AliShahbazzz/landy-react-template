@@ -26,13 +26,13 @@ export const TabOne: React.FC = () => {
     {
       title: "Cold Shrink Terminal Kit",
       description: "Cold Shrink Indoor/Outdoor Termination for XLPE or EPR",
-      img: "/img/products/product_4.png",
+      img: "/img/products/product_4.jpg",
       alt: "Cold Shrink Terminal Kit",
     },
     {
       title: "Wire Expanding Machine",
       description:
-        "Applied for expanding small diameter 5-10mm Cold Shrink Rubber products",
+        "Applied for expanding small diameter Cold Shrink Rubber products",
       img: "/img/products/product_5.jpg",
       alt: "Wire Expanding Machine",
     },
