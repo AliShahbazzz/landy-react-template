@@ -7,7 +7,7 @@ export const TabOne: React.FC = () => {
   const products = [
     {
       title: "Cold Shrink Tube",
-      description: "Cold Shrinkable tube made of EPDM",
+      description: "Cold Shrinkable tube made of Silicone",
       img: "/img/products/product_1.png",
       alt: "Cold Shrink Tube",
     },
